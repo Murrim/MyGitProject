@@ -1,5 +1,6 @@
 package com.git.base;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -11,6 +12,7 @@ public class WayFair {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\hkhan\\OneDrive\\Desktop\\chromedriver.exe");
 	    dr = new ChromeDriver();
 	    dr.get("https://www.wayfair.com");
+	
 	}
 	
 	
