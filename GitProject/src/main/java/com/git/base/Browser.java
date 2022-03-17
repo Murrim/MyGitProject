@@ -20,6 +20,8 @@ public class Browser {
 	   Varification.varify(actualTitle, expectedTitle);
 	   dr.findElement(By.linkText("About")).click();
 	   dr.findElement(By.linkText("Forum")).click();
+	   dr.findElement(By.id("username")).sendKeys("hkhan211096@gmail.com");
+	   dr.findElement(By.id("password")).sendKeys("Hkhan211096@");
 	   
 	}
 
