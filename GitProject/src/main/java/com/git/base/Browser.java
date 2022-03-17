@@ -13,8 +13,10 @@ public class Browser {
 	   dr = new ChromeDriver();
 	   
 	   dr.get("https://www.osaconsultingtech.com");
-		
-		
+	   String actualTitle = dr.getTitle();
+	   System.out.println(actualTitle);
+	   String expectedTitle = "OSA Consulting Tech Corp || Best Available Resources For Software Industry";
+	   Varification.varify(actualTitle, expectedTitle);
 	}
 
 }
