@@ -1,5 +1,6 @@
 package com.git.base;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -17,6 +18,7 @@ public class Browser {
 	   System.out.println(actualTitle);
 	   String expectedTitle = "OSA Consulting Tech Corp || Best Available Resources For Software Industry";
 	   Varification.varify(actualTitle, expectedTitle);
+	   
 	}
 
 }
