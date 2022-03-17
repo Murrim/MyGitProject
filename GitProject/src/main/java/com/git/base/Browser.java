@@ -19,6 +19,7 @@ public class Browser {
 	   String expectedTitle = "OSA Consulting Tech Corp || Best Available Resources For Software Industry";
 	   Varification.varify(actualTitle, expectedTitle);
 	   dr.findElement(By.linkText("About")).click();
+	   dr.findElement(By.linkText("Forum")).click();
 	   
 	}
 
